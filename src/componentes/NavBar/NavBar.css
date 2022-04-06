@@ -1,0 +1,24 @@
+
+.root {
+    margin-top: 0%;
+    margin-left: 0%;
+    right: 0%;
+    z-index: 999;
+    
+    
+}
+.toolbar {
+    background-color: #8C52FF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    
+}
+.logo {
+    height: 4.0rem;
+    object-fit: contain;
+} 
+:hover {
+    cursor: pointer;
+}

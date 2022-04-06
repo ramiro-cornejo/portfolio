@@ -1,3 +1,4 @@
+
 import { NavBar } from "./componentes/NavBar/NavBar";
 import { About }  from "./componentes/About/About";
 import { Skills } from "./componentes/Skills/Skills";
@@ -7,14 +8,22 @@ import { Contact } from "./componentes/Contact/Contact";
 
 
 
+
 function App() {
+  
+
   return (
-    <><NavBar />
-      <About />
-      <Skills />
-      <Projets />
-      <Contact /></>
+    <>
+    <div>
+      <NavBar />
+      <About title="Sobre mi" id="about" dark={ true } />
+      <Skills title="Habilidades" id="skills" dark={ false }/>
+      <Projets title="Proyectos" id="projets" dark={ true }/>
+      <Contact title="Contacto" id="contact" dark={ false }/>
+    </div>
+    </>
   );
 }
+
 
 export default App;

@@ -7,7 +7,7 @@ export const Skills = () => {
         <>
         <header>            
             
-                <h1>Conocimientos</h1>
+                <h1>Habilidades</h1>
         </header>
         
         </>

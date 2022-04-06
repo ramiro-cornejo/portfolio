@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.section {
+    background-color: #1b1354;
+    min-height: 80vh;
+    color: #ffffff;
+    text-align:start;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    
+    
+}
+
