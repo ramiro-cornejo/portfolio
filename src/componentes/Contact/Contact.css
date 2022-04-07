@@ -1,11 +1,5 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-}
 
-.section-about {
+.section-contact {
     background-color: #1b1354;
     min-height: 80vh;
     color: #ffffff;
@@ -16,4 +10,3 @@
     
     
 }
-
