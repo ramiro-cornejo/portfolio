@@ -6,14 +6,22 @@
 }
 
 .section-about {
-    background-color: #1b1354;
     min-height: 80vh;
     color: #ffffff;
     text-align:start;
     width: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 10%;
+    padding-right: 10%;
+    background: linear-gradient(to bottom, #8E2DE2,#4A00E0);
     
+}
+
+.imagen {
+    height: 20.0rem;
+    object-fit: contain;
+    border-radius: 100%;
+    padding-top: 20px;
     
 }
 
