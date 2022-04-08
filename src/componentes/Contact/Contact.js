@@ -1,6 +1,7 @@
 import React from "react"
 import '../Contact/Contact.css'
-
+import {BsLinkedin, BsGithub} from 'react-icons/bs'
+import {MdEmail} from 'react-icons/md'
 
 
 export const Contact = () => {
@@ -9,11 +10,10 @@ export const Contact = () => {
         <h1>Gracias por visitar mi portfolio</h1>
         
         <p>Para contactarme te dejo los siguientes medios</p>
-        <ul>
-            <li>Linkedin</li>
-            <li>Email</li>
-            <li>GitHub</li>
-        </ul>
+        
+        < BsLinkedin />
+        < BsGithub />
+        < MdEmail />
     </div>
     )
 }

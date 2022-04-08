@@ -6,7 +6,7 @@
 }
 
 .section-skill {
-    background-color: #4A00E0;
+    background: linear-gradient(to right, #5106a9,#7667f6);
     min-height: 50vh;
     color: #ffffff;
     text-align:start;
@@ -16,3 +16,9 @@
     
     
 }
+
+.skills {
+    height: 5.0rem ;
+    object-fit: contain;
+    padding-top: 10px;
+} 
