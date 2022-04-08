@@ -4,7 +4,7 @@ import { About }  from "./componentes/About/About";
 import { Skills } from "./componentes/Skills/Skills";
 import { Projets } from "./componentes/Projets/Projets";
 import { Contact } from "./componentes/Contact/Contact";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
