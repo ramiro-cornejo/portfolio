@@ -7,7 +7,7 @@ import proyecto from '../images/proyecto.jpg'
 export const Projets = () => {
     return (
         <div className="section-projets">
-        <h1>Proyectos</h1>
+        <h2>Proyectos</h2>
         
         
         <Card className="card">

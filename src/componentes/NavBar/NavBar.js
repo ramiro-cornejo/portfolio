@@ -10,7 +10,8 @@ export const NavBar = () => {
     return (
         <AppBar position="sticky" className="root">
             <Toolbar className="toolbar">
-                <h1 className="logo">Logo</h1>
+                <h1 className="logo">Portfolio en proceso..</h1>
+                
             </Toolbar>
         </AppBar>
     )

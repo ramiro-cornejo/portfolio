@@ -4,9 +4,11 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-
+.icon {
+    font-size: 100px;
+}
 .section-skill {
-    background: linear-gradient(to right, #5106a9,#7667f6);
+    background: linear-gradient(to right, #030328,#340f56);
     min-height: 50vh;
     color: #ffffff;
     text-align:start;

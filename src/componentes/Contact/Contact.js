@@ -7,13 +7,15 @@ import {MdEmail} from 'react-icons/md'
 export const Contact = () => {
     return (
         <div className="section-contact">
-        <h1>Gracias por visitar mi portfolio</h1>
+        <h2>Gracias por visitar mi portfolio</h2>
         
         <p>Para contactarme te dejo los siguientes medios</p>
+        <div className="icon-contacto">
+        < BsLinkedin className="icon-padding"/>
+        < BsGithub className="icon-padding" />
+        < MdEmail className="icon-padding"/>
+        </div>
         
-        < BsLinkedin />
-        < BsGithub />
-        < MdEmail />
     </div>
     )
 }

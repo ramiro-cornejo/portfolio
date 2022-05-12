@@ -2,11 +2,13 @@ import React from "react"
 import '../Skills/Skills.css'
 import {DiHtml5,DiCss3 , DiSass, DiJavascript1, DiReact, DiBootstrap, DiGit, DiGithubFull} from 'react-icons/di'
 
+
 export const Skills = () => {
     return (
+        
         <div className="section-skill">
-            <h1>Habilidades</h1>
-            <div>
+            <h2>Habilidades</h2>
+            <div className="icon">
             < DiHtml5 />
             < DiCss3 />
             < DiSass />
@@ -17,7 +19,7 @@ export const Skills = () => {
             < DiGithubFull />
             </div>
         </div>
-    
+        
     )
 }
 
