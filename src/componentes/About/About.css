@@ -11,23 +11,23 @@
     text-align:start;
     width: 100%;
     padding-top: 5%;
-    padding-left: 10%;
+    padding-left: 7%;
     padding-right: 10%;
     background: linear-gradient(to right, #030328,#340f56);
     
 }
 
 .imagen {
-    height: 20.0rem;
     object-fit: contain;
     border-radius: 100%;
     padding-top: 20px;
+    filter: drop-shadow(0 0 40px #7923d5);
     
 }
 
 .i{
     display: flex;
-    height: 100vh;
+    height: 90vh;
     overflow-x: hidden;
 }
 
@@ -41,6 +41,7 @@
 .i-right{
     flex: 1;
     position: relative;
+    
 }
 
 .i-left-wrapper{
@@ -70,6 +71,7 @@
     animation: move 10s ease-in-out infinite alternate;
 }
 
+
 @keyframes move  {
     50% {
         transform: translateY(-50px);
@@ -96,11 +98,12 @@
 }
 
 .i-img {
-    height: 50%;
-    bottom: 0;
+    height: 70%;
+    bottom: 15%;
     right: 0;
     object-fit: cover;
     position: absolute;
+    
 }
 
 .i-bg{

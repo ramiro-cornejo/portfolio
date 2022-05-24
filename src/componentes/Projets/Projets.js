@@ -17,8 +17,9 @@ export const Projets = () => {
             <Card.Text>
             Caracteristicas del proyecto realizado.
             </Card.Text>
-            <Button variant="primary">Deploy</Button>
-            <Button variant="primary">GitHub</Button>
+            <button className="btn-card">Deploy</button>
+            <button className="btn-card">GitHub</button>
+            
         </Card.Body>
         </Card>
     </div>

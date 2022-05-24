@@ -9,18 +9,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
 function App() {
   
 
   return (
     <>
-    <div>
+    
       <NavBar />
-      <About title="Sobre mi" id="about" dark={ true } />
-      <Skills title="Habilidades" id="skills" dark={ false }/>
-      <Projets title="Proyectos" id="projets" dark={ true }/>
-      <Contact title="Contacto" id="contact" dark={ false }/>
-    </div>
+      <About title="Sobre mi" id="about"  />
+      <Skills title="Habilidades" id="skills" />
+      <Projets title="Proyectos" id="projets" />
+      <Contact title="Contacto" id="contact" />
+    
     </>
   );
 }
