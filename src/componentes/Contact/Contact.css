@@ -12,7 +12,26 @@
 }
 .icon-contacto {
     font-size: 75px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .icon-padding{
     padding-right: 2%;
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    width: 150px;
+    padding: 2px 5px;
+}
+.link:hover{
+    color: #7923d5;
 }

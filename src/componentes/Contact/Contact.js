@@ -11,12 +11,21 @@ export const Contact = () => {
         
         <p>Para contactarme te dejo los siguientes medios</p>
         <div className="icon-contacto">
-        < BsLinkedin className="icon-padding"/>
-        < BsGithub className="icon-padding" />
-        < MdEmail className="icon-padding"/>
+            <div className="icon-container">
+                < BsLinkedin className="icon-padding"/>
+                <a href="https://www.linkedin.com/in/ramiro-sebasti%C3%A1n-cornejo/" className="link" target="_blank" rel="noreferrer" >Linkedin</a>
+            </div>
+            <div className="icon-container">
+                < BsGithub className="icon-padding" />
+                <a href="https://github.com/ramiro-cornejo" className="link" target="_blank" rel="noreferrer" >Github</a>
+            </div>
+            <div className="icon-container">
+                < MdEmail  className="icon-padding"/>
+                <a href="mailto:ramiro.s.cornejo@gmail.com" className="link" target="_blank" rel="noreferrer" > Email</a>
+            </div>
         </div>
         
-    </div>
+        </div>
     )
 }
 
