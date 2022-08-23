@@ -2,8 +2,38 @@ footer {
     min-height: 140px;
     text-align: center;
     font-size: 14px;
-    margin-top: 35px;
-    padding-top: 45px;
-    background: gray;
     color: #ffffff;
+}
+
+.section-footer {
+    min-height: 200px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.icon-contacto {
+    font-size: 75px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 25%;
+}
+.icon-padding{
+    padding-right: 25%;
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.link{
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding-top: 0;
+}
+.link:hover{
+    color: #7923d5;
 }

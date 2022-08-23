@@ -13,7 +13,7 @@
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    background: linear-gradient(to right, #030328,#340f56);
+    
     
 }
 
@@ -58,7 +58,7 @@
 
 .i-name{
     font-size: 30px;
-    margin-top: 25px;
+    margin-top: 10px;
     font-size: 1.9rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -85,7 +85,7 @@
 }
 
 .i-title-item {
-    height: 50px;
+    height: 42px;
     font-weight: bold;
     color: #7923d5;
     display: flex;
