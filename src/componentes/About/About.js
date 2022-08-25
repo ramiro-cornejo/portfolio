@@ -1,5 +1,4 @@
 import React from "react";
-import Frontend from "../images/Frontend.png";
 import "../About/About.css";
 
 export const About = () => {
@@ -11,12 +10,22 @@ export const About = () => {
           <h1 className="i-name">Ramiro Sebastián Cornejo</h1>
           <div className="i-title">
             <div className="animate__fadeInUp">
-              <div className="i-title-item">Frontend Developer</div>
               <div className="i-title-item">
-                Web en proceso Web en proceso Web en proceso Web en proceso Web
-                en proceso Web en proceso Web en proceso Web en proceso Web en
-                proceso Web en proceso Web en proceso Web en proceso Web en
-                proceso Web en proceso Web en proceso
+                <p>
+                  Anteriormente era estudiante de Arquitectura, la pandemia me
+                  llevo a tomar la decisión de hacer un cambio de rubro que
+                  tenga como objetivo desarrollar mi carrera profesional en el
+                  mundo IT, en especial como Desarrollador Frontend.
+                </p>
+                <p>
+                  Me considero una persona apasionada por el diseño/desarrollo,
+                  dispuesto a adaptarme a trabajar independientemente o en
+                  equipo. Motivado a seguir aprendiendo y explorando nuevos
+                  conocimientos.
+                </p>
+              </div>
+              <div className="btn-card-container">
+              <button className="btn-card-about">Descargar CV</button>
               </div>
             </div>
           </div>

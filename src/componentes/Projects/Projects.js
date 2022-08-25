@@ -1,10 +1,10 @@
 import React from "react"
-import '../Projets/Projets.css'
+import './Projects.css'
 import { Card } from "react-bootstrap"
 import proyecto from '../images/proyecto.jpg'
 
 
-export const Projets = () => {
+export const Projects = () => {
     return (
         <div className="section-projets">
         <h2>Proyectos</h2>
@@ -26,4 +26,4 @@ export const Projets = () => {
     )
 }
 
-export default Projets
+export default Projects
