@@ -7,7 +7,7 @@ export const Skills = () => {
     return (
         
         <div className="section-skill">
-            <h2>Habilidades</h2>
+            <h2 className="heading">Habilidades</h2>
             <div className="icon">
             < DiHtml5 />
             < DiCss3 />

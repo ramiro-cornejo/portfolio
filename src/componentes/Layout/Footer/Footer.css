@@ -1,12 +1,13 @@
 footer {
-    min-height: 140px;
+    min-height: 50px;
+    line-height: 20px;
     text-align: center;
     font-size: 14px;
     color: #ffffff;
 }
 
 .section-footer {
-    min-height: 200px;
+    min-height: 150px;
     color: #ffffff;
     text-align: center;
     

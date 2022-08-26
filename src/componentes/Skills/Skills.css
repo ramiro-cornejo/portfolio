@@ -17,6 +17,10 @@
     
     
 }
+.section-skill .heading{
+    font-size: 50px;
+    font-weight: bold;
+}
 
 .skills {
     height: 5.0rem ;

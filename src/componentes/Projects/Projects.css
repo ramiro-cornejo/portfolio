@@ -1,5 +1,5 @@
 
-.section-projets {
+.section-projects {
     min-height: 50vh;
     color: #ffffff;
     text-align:start;
@@ -12,5 +12,10 @@
 .card {
     width: 14rem;
     color: black;
+}
+
+.section-projects .heading{
+    font-size: 50px;
+    font-weight: bold;
 }
 
