@@ -9,9 +9,16 @@
     
 }
 
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
     width: 14rem;
     color: black;
+    margin: 10px;
+    flex-basis: 30%;
 }
 
 .section-projects .heading{

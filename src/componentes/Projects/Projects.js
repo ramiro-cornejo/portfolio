@@ -1,7 +1,10 @@
 import React from "react"
 import './Projects.css'
+import { Link } from 'react-router-dom';
+import { proyectos } from "../../data/proyectos"
 import { Card } from "react-bootstrap"
-import proyecto from '../images/proyecto.jpg'
+
+
 
 
 export const Projects = () => {
@@ -9,19 +12,24 @@ export const Projects = () => {
         <div className="section-projects">
         <h2 className="heading">Proyectos</h2>
         
-        
-        <Card className="card">
-        <Card.Img variant="top" src={proyecto}  alt="proyecto" />
-        <Card.Body>
-            <Card.Title>Proyecto 1</Card.Title>
-            <Card.Text>
-            Caracteristicas del proyecto realizado.
-            </Card.Text>
-            <button className="btn-card">Deploy</button>
-            <button className="btn-card">GitHub</button>
-            
-        </Card.Body>
-        </Card>
+        <section className="card-container">
+            {
+                proyectos.map(proyecto => {
+                    return (
+                        <Card className="card" key={proyecto.id}>
+                        <Card.Img variant="top" src={"/images/"+proyecto.id+".png"}  alt="proyecto" />
+                        <Card.Body>
+                            <Card.Title><Link to={"/trabajo/" + proyecto.id}>{proyecto.nombre}</Link></Card.Title>
+                            <Card.Text>{proyecto.categorias}</Card.Text>
+                            <button className="btn-card">Deploy</button>
+                            <button className="btn-card">GitHub</button>
+                            
+                        </Card.Body>
+                        </Card>
+                    );
+                })
+            }
+        </section>
     </div>
     )
 }

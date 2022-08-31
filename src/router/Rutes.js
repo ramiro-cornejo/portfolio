@@ -20,6 +20,7 @@ export const Rutes = () => {
                 <Route path='/Skills' element={<Skills/>} />
                 <Route path='/Projects' element={<Projects/>} />
                 <Route path='/Contact' element={<Contact/>} />
+                <Route path='*' element={<h1>Error 404</h1>}/>
             </Routes>
         </section>
 
