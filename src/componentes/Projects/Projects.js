@@ -19,7 +19,7 @@ export const Projects = () => {
                         <Card className="card" key={proyecto.id}>
                         <Card.Img variant="top" src={"/images/"+proyecto.id+".png"}  alt="proyecto" />
                         <Card.Body>
-                            <Card.Title><Link to={"/trabajo/" + proyecto.id}>{proyecto.nombre}</Link></Card.Title>
+                            <Card.Title><Link to={"/ProjectDetail/" + proyecto.id}>{proyecto.nombre}</Link></Card.Title>
                             <Card.Text>{proyecto.categorias}</Card.Text>
                             <button className="btn-card">Deploy</button>
                             <button className="btn-card">GitHub</button>
